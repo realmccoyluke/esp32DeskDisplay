@@ -32,7 +32,7 @@ Go to https://developer.spotify.com/dashboard, create an account if you do not h
 Then Create an App, copy your ClientID and ClientSecret
 
 Use https://spotify-refresh-token-generator.netlify.app/#welcome to get your refresh token.
-- USE MOST SELECT THE CORRECT SCOPES OR THE PROGRAM WILL NOT FUNCTION
+- YOU MUST SELECT THE CORRECT SCOPES OR THE PROGRAM WILL NOT FUNCTION
 ```javascript
 user-read-currently-playing
 user-modify-playback-state
