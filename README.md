@@ -4,6 +4,8 @@
 This project builds on the esp32 spotify display, now displaying the weather and time, along with handling the updating of the currently playing track a tad faster.
 
 
+Designed for a 480 x 320 Display
+
 ## Installation
 
 - PlatformIO
