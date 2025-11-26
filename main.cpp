@@ -568,7 +568,7 @@ void loop(){
     Serial.println(currentImage);
     Serial.println("-----------------------");
     timeLastCall = millis();
-    if(currentTrack != lastTrack){
+    if(currentTrack != lastTrack  && spotifyStatus != 204){
       tft.fillRect(0, 0, 480, 205, TFT_BLACK);
       tft.drawString("Updating Track", 200, 60);
     }
